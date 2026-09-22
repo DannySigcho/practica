@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoja de Vida - Danny Gemis</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #333; max-width: 800px; margin: 0 auto; padding: 20px; background-color: #f4f4f4; }
+        header { text-align: center; background: white; padding: 20px; border-radius: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); margin-bottom: 20px; }
+        img.foto { width: 150px; height: 150px; border-radius: 50%; object-fit: cover; border: 3px solid #007bff; }
+        h1 { margin: 10px 0 5px; color: #2c3e50; }
+        .section { background: white; padding: 20px; margin-bottom: 15px; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        h2 { color: #007bff; border-bottom: 2px solid #eee; padding-bottom: 5px; }
+        .btn { display: inline-block; background: #28a745; color: white; padding: 10px 15px; text-decoration: none; border-radius: 5px; margin-top: 10px; }
+        .btn:hover { background: #218838; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <!-- FOTO (Ubicada en carpeta assets) -->
+        <img src="assets/foto-perfil.jpg" alt="Foto de Perfil" class="foto">
+        <h1>Danny Gemis</h1>
+        <p>Desarrollador Web | Entusiasta de Tecnología</p>
+    </header>
+
+    <!-- DATOS PERSONALES -->
+    <div class="section">
+        <h2>Datos Personales</h2>
+        <p><strong>Email:</strong> correo@ejemplo.com</p>
+        <p><strong>Teléfono:</strong> +57 300 123 4567</p>
+        <p><strong>Ubicación:</strong> Ciudad, País</p>
+    </div>
+
+    <!-- INSTRUCCIÓN FORMAL (LINK) -->
+    <div class="section">
+        <h2>Documentación Formal</h2>
+        <p>Descarga mi hoja de vida completa en formato PDF:</p>
+        <!-- Link al archivo en carpeta docs -->
+        <a href="docs/hoja-vida.pdf" target="_blank" class="btn">Ver Hoja de Vida (PDF)</a>
+    </div>
+
+    <!-- EXPERIENCIA -->
+    <div class="section">
+        <h2>Experiencia Laboral</h2>
+        <h3>Cargo / Puesto</h3>
+        <p><em>Nombre de la Empresa | Fecha Inicio - Fecha Fin</em></p>
+        <ul>
+            <li>Descripción de responsabilidad o logro 1.</li>
+            <li>Descripción de responsabilidad o logro 2.</li>
+        </ul>
+    </div>
+
+    <!-- INGLÉS - SEGUNDO IDIOMA -->
+    <div class="section">
+        <h2>Idiomas</h2>
+        <p><strong>Español:</strong> Nativo</p>
+        <p><strong>Inglés:</strong> Nivel Intermedio/Avanzado (B2/C1)</p>
+    </div>
+
+    <!-- CAPACITACIONES (CANVA) -->
+    <div class="section">
+        <h2>Capacitaciones y Cursos</h2>
+        <ul>
+            <li>Diseño Gráfico Básico - <strong>Canva</strong></li>
+            <li>Desarrollo Web Frontend - Plataforma X</li>
+        </ul>
+    </div>
+
+    <!-- RECOMENDACIONES (EMPRESA) -->
+    <div class="section">
+        <h2>Recomendaciones</h2>
+        <blockquote>
+            "Danny es un profesional dedicado y creativo..." 
+            <br><strong>- Nombre del Jefe, Empresa XYZ</strong>
+        </blockquote>
+    </div>
+
+</body>
+</html>
